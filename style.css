@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+body{
+    background:linear-gradient(135deg,#153677, #4e085f);
+    min-height: 100vh;
+    width: 100%;
+    padding: 10px;
+}
+
+.main{
+   background-color: white;
+   margin: 100px;
+   padding: 40px 80px;
+   border-radius: 20px;
+}
+
+.main h2{
+    margin-left: 15px;
+    font-weight: 540;
+}
+
+.search-bar{
+    margin-top: 15px;
+    background: #edeef0;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    border-radius: 20px;
+    padding-left:20px ;
+   
+}
+
+.search-bar input{
+    background-color: transparent;
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 1.15rem;
+}
+
+.search-bar button{
+    width: 100px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color:#ff5945 ;
+}
+
+.lists {
+    margin-top: 15px;
+    margin-left: 15px;    
+}
+
+.lists ul li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.lists ul li .text{
+    flex: 1;
+}
+
+.lists ul li input{
+  margin-right: 15px;
+  font-size:2rem;
+}
+
+.lists ul li .delete{
+    margin-right: 20px;
+    height: 28px;
+    width: 28px;
+    text-align: center;
+    line-height:28px ;
+    border-radius: 50%;
+    transition: all ease-in-out .2s;
+}
+
+.lists ul li .delete:hover{
+    background: #edeef0;
+
+}
+
+.main p{
+    color: red;
+    font-weight: 600;
+    margin-left:15px;
+    margin-top: 15px;
+    display: none;;
+
+}

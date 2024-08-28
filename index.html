@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="main">
+        <h2>To-Do List</h2>
+        <div class="search-bar">
+            <input type="text" placeholder="Add your task">
+            <button>ADD</button>
+        </div>
+        <p class="error"><i class="fa-solid fa-circle-exclamation"></i> Please enter your task.</p>
+
+        <div class="lists">
+            <ul>
+                <li><input type="radio"><span class="text">Read</span> <span class="delete">x</span></li>
+            </ul>
+        </div>
+    </div>
+   
+    <script src="app.js"></script>
+</body>
+</html>
